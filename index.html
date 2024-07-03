@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversão de Moeda</title>
+  <script src="js/index.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Conversão de Moeda</h1>
+    <div class="form-group">
+      <label for="valor">Valor de conversão:</label>
+      <input type="text" name="valor" id="valor" placeholder="Digite o valor">
+
+      <label for="moedaOrigem">Moeda de origem:</label>
+      <select name="moedaOrigem" id="moedaOrigem">
+        <option value="BRL">Real (BRL)</option>
+        <option value="USD">Dólar (USD)</option>
+        <option value="EUR">Euro (EUR)</option>
+        <option value="CNY">Yuan (CNY)</option>
+      </select>
+
+      <label for="moedaFinal">Moeda final:</label>
+      <select name="moedaFinal" id="moedaFinal">
+        <option value="BRL">Real (BRL)</option>
+        <option value="USD">Dólar (USD)</option>
+        <option value="EUR">Euro (EUR)</option>
+        <option value="CNY">Yuan (CNY)</option>
+      </select>
+      
+      <button id="chamar" onclick="chamarServicoOpenexchangerates()">BUSCAR</button>
+    </div>
+    <div id="resultado"></div>
+  </div>
+</body>
+
+</html>

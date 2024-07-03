@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../img/money.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.6);
+  /*Ajusteaopacidadeparaescurecerofundo*/
+  z-index: -1;
+  -webkit-filter: brightness(0.6);
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.9px);
+  -webkit-backdrop-filter: blur(7.9px);
+}
+option {
+  color: black;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ffffff00;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  background: rgba(255, 255, 255, 0.27);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.9px);
+  -webkit-backdrop-filter: blur(7.9px);
+}
+
+input[type="text"]:focus,
+select:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color: rgb(233, 233, 233);
+}
+
+#chamar {
+  font-size: 17px;
+  margin-top: 20px;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #0e5d00;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#chamar:hover {
+  background-color: #0a4300;
+}
+
+#chamar:focus {
+  outline: none;
+}
+
+#visibilidade {
+  background: none;
+  border: none;
+  color: #0e5d00;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  font-size: 13px;
+  width: 100%;
+}
+
+#visibilidade:hover {
+  color: #0a4300;
+}
+
+#resultado {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
