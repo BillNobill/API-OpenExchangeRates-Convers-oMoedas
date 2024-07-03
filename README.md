@@ -1,0 +1,1 @@
+# API-OpenExchangeRates-Convers-oMoedas
