@@ -1,4 +1,4 @@
-let apiKey = "12fe4387b5364aeaa6a06c9c2818f0fc";
+let apiKey = "API_KEY";
 let urlOpenexchangerates = `https://openexchangerates.org/api/latest.json?app_id=${apiKey}`;
 
 function chamarServicoOpenexchangerates() {
