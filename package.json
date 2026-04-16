@@ -1,0 +1,11 @@
+{
+  "name": "api-openexchange-conversor-moedas",
+  "version": "1.0.0",
+  "description": "Conversor de moedas que utiliza a API Open Exchange Rates para cota\u251c\u00ba\u251c\u00c1es em tempo real.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BillNobill",
+  "license": "MIT"
+}
